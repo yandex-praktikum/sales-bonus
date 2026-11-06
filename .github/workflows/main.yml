@@ -10,6 +10,7 @@ env:
   DIR_TESTS: /tmp/tests-sales-bonus
   REP_TESTS: https://github.com/Yandex-Practicum/tests-sales-bonus.git
   REPO: ${{ github.event.repository.name }}
+  STARTER_VERSION: 2
 jobs:
   tests:
     runs-on: ubuntu-latest
